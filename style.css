@@ -29,6 +29,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   line-height: 1;
+  background-color: rgb(233, 235, 239);
 }
 ol, ul {
   list-style: none;
@@ -52,22 +53,50 @@ table {
 
 .signIn {
     display: flex;
-    
+    align-items: center;
+    justify-content: flex-end;
 }
-
-
 
 /**********************************************************
 *** Logo/Products Section ***
 **********************************************************/
+
+.intuitLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+}
+.products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  margin-bottom: 15px;
+}
+li {
+  display: inline-block;
+  margin: 0 2px;
+}
 .logoProduct {
     width: 20px;
     height: 20px;
+}
+.productLinks {
+  position: relative;
+  bottom: 5px;
 }
 
 /**********************************************************
 *** Form Section ***
 **********************************************************/
+.form {
+  width: 375px;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  border: solid 1px rgb(192, 192, 192);
+}
+
 
 /**********************************************************
 *** Footer Section ***
